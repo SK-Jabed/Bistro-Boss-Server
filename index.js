@@ -36,7 +36,8 @@ async function run() {
       const result = await menuCollection.find().toArray();
       res.send(result);
     });
-   
+
+    // Get All Reviews from Database (GET Operation)
     app.get("/reviews", async (req, res) => {
       const result = await reviewCollection.find().toArray();
       res.send(result);
