@@ -31,6 +31,7 @@ async function run() {
     const menuCollection = client.db("bistroBossDB").collection("menu");
     const reviewCollection = client.db("bistroBossDB").collection("reviews");
     const cartCollection = client.db("bistroBossDB").collection("carts");
+    const userCollection = client.db("bistroBossDB").collection("users");
 
     // Get All Menu Items from Database (GET Operation)
     app.get("/menu", async (req, res) => {
@@ -64,6 +65,14 @@ async function run() {
       const result = await cartCollection.deleteOne(query);
       res.send(result);
     });
+
+
+    // Users Related API
+    app.post("/users", async (req, res) => {
+      const user = req.body;
+      const result = await userCollection.insertOne(user);
+      res.send(result)
+    })
 
     // Send a ping to confirm a successful connection
     await client.db("admin").command({ ping: 1 });
