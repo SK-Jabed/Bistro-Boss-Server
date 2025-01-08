@@ -58,7 +58,7 @@ async function run() {
       });
     };
 
-    // use verify admin after verifyToken
+    // Use verify admin after verifyToken
     const verifyAdmin = async (req, res, next) => {
       const email = req.decoded.email;
       const query = { email: email };
