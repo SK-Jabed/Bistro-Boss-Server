@@ -9,7 +9,7 @@
   "keywords": [],
   "author": "Sheikh Jabed",
   "license": "ISC",
-  "description": "This is Server of Bistro Boss Full Stack Project",
+  "description": "This is Server Side of Bistro Boss Full Stack Project",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.4.7",
