@@ -71,7 +71,7 @@ async function run() {
     };
 
     // Get All Menu Items from Database (GET Operation)
-    app.post("/menu", async (req, res) => {
+    app.post("/menu", verifyToken, async (req, res) => {
       const item = req.body;
       const result = await menuCollection.insertOne(item);
       res.send(result);
