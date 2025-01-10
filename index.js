@@ -160,6 +160,7 @@ async function run() {
       res.send(result);
     });
 
+    // Get All Users Data from Database
     app.get("/users", verifyToken, verifyAdmin, async (req, res) => {
       // console.log(req.headers);
       const result = await userCollection.find().toArray();
