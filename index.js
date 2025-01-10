@@ -127,6 +127,7 @@ async function run() {
       res.send(result);
     });
 
+    // Get All Carts Data from Database
     app.get("/carts", async (req, res) => {
       const email = req.query.email;
       const query = { email: email };
