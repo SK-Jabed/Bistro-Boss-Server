@@ -82,6 +82,13 @@ async function run() {
       res.send(result);
     });
 
+    app.delete("/menu/:id", verifyToken, verifyAdmin, async (req, res) => {
+      const id = req.params.id;
+      const query = { _id: id };
+      const result = await menuCollection.deleteOne(query);
+      res.send(result);
+    });
+
     // Get All Reviews from Database (GET Operation)
     app.get("/reviews", async (req, res) => {
       const result = await reviewCollection.find().toArray();
