@@ -289,7 +289,7 @@ async function run() {
       });
     });
 
-    // order status
+    // Order status
     /**
      * ----------------------------
      *    NON-Efficient Way
@@ -299,7 +299,7 @@ async function run() {
      * 3. for every item in the menu collection that you found from a payment entry (document)
      */
 
-    // using aggregate pipeline
+    // Using aggregate pipeline
     app.get("/order-stats", verifyToken, verifyAdmin, async (req, res) => {
       const result = await paymentCollection
         .aggregate([
