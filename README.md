@@ -2,6 +2,7 @@
 
 Welcome to the server-side of **PrimeScope News**, an innovative newspaper platform that combines technology and journalism to deliver a seamless news consumption experience. This server handles data management, user authentication, premium features, and administrative functionalities.
 
+
 ---
 
 ## 📄 
