@@ -16,7 +16,6 @@ This platform is tailored to meet the needs of both news readers and content cre
 
 ## 📖 
 
-
 ## 💡 **Purpose**
 The primary goal of PrimeScope News is to revolutionize news consumption through:
 - Delivering trending news content in real-time.
@@ -47,7 +46,6 @@ With a focus on scalability and responsiveness, this project ensures seamless pe
 Check out the live demo here: [PrimeScope News Live Site](https://b10-assignment-11-753d2.web.app/)
 
 ---
-
 
 ## 🌟 Features
 
@@ -85,7 +83,6 @@ Check out the live demo here: [PrimeScope News Live Site](https://b10-assignment
 
 ---
 
-
 ---
 
 ## ⚙️ **Key Functionalities**
@@ -122,7 +119,6 @@ Check out the live demo here: [PrimeScope News Live Site](https://b10-assignment
   - Optimized database queries for efficient searches.
  
 ---
-
 
 ## 🛠️ **Technologies Used**
 - **Backend Framework:** Node.js, Express.js
@@ -294,8 +290,6 @@ PrimeScope News provides a robust RESTful API to manage users, articles, and sub
    ```bash
    git clone https://github.com/your-username/fundsphere-server.git
    cd fundsphere-server
-
-
 
 ---
 
