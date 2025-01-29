@@ -229,7 +229,6 @@ PrimeScope News provides a robust RESTful API to manage users, articles, and sub
 
 ---
 
-
 ## 🔍 **API Documentation**
 - **Authentication:**
   - `POST /api/register` - Register a user.
@@ -274,15 +273,12 @@ PrimeScope News provides a robust RESTful API to manage users, articles, and sub
 
 ---
 
----
-
 ## 🧮 **Dynamic Features**
 - **Trending Articles:** Articles with the highest view count are highlighted dynamically.  
 - **Statistics:** Real-time user and article statistics using charts.  
 - **Subscription Plans:** Premium content access for subscribed users.  
 
 ---
-
 
 ## 🔧 Installation and Usage
 
